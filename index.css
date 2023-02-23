@@ -308,7 +308,7 @@ padding: 0.5rem;
     .welcome-detail {
 
         width: 100rem;
-        height: 150rem;
+        height: 50rem;
     }
     
     .welcome-detail h2 {
@@ -546,6 +546,22 @@ li {
 @media(max-width:672px)
 {
     html{font-size: 30%;}
+    .welcome-detail {
+        width: 100rem;
+        height:80rem;
+/* border: 2px solid red; */
+    }
+    .welcome-detail h2 {
+
+        font-size: 6rem;
+        margin: 0rem 0rem 0rem 0rem;
+    
+text-align: center;    }
+
+    .welcome-detail h1 
+    {
+        font-size: 8rem;
+    }
 }
 
 @media(max-width:536px)
@@ -556,4 +572,27 @@ li {
 @media(max-width:464px)
 {
     html{font-size: 22%;}
+}
+
+@media(max-width:389px)
+{
+    html{font-size: 20%;}
+}
+
+@media(max-width:389px)
+{
+    html{font-size: 15%;}
+    .welcome-detail {
+        width: 100rem;
+        height:170rem;
+/* border: 2px solid red; */
+    }
+    .welcome-detail h2 {
+
+        font-size: 9rem;
+    }
+    .welcome-detail h1 
+    {
+        font-size: 12rem;
+    }
 }
