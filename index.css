@@ -89,11 +89,13 @@ li:hover {
 .section {
     /* background-color: rgb(160, 160, 160); */
     color: black;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    display: block;
+    text-align: center;
     width: 100%;
-    height: 3rem;
+    /* height: 3rem; */
     font-size: 2rem;
     margin: 3rem 0rem 3rem 0rem;
     /* margin-bottom: 3rem; */
@@ -321,10 +323,10 @@ padding: 0.5rem;
     .section {
         /* background-color: rgb(160, 160, 160); */
         color: black;
-        height: 3rem;
+        /* height: 3rem; */
         font-size: 6rem;
-        margin: 3rem 0rem 3rem 0rem;
-    }
+        /* margin: 3rem 0rem 3rem 0rem; */
+    } 
     .about1 {
         display: flex;
         flex-direction: column-reverse;
