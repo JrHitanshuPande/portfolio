@@ -596,3 +596,55 @@ text-align: center;    }
         font-size: 12rem;
     }
 }
+
+@media(max-width:266px)
+{
+    html{font-size: 12%;}
+    .welcome-detail {
+        width: 100rem;
+        height:170rem;
+/* border: 2px solid red; */
+    }
+    .welcome-detail h2 {
+
+        font-size: 9rem;
+    }
+    .welcome-detail h1 
+    {
+        font-size: 12rem;
+    }
+}
+@media(max-width:212px)
+{
+    html{font-size: 11%;}
+    .welcome-detail {
+        width: 100rem;
+        height:170rem;
+/* border: 2px solid red; */
+    }
+    .welcome-detail h2 {
+
+        font-size: 9rem;
+    }
+    .welcome-detail h1 
+    {
+        font-size: 12rem;
+    }
+}
+@media(max-width:192px)
+{
+    html{font-size: 10%;}
+    .welcome-detail {
+        width: 100rem;
+        height:170rem;
+/* border: 2px solid red; */
+    }
+    .welcome-detail h2 {
+
+        font-size: 9rem;
+    }
+    .welcome-detail h1 
+    {
+        font-size: 12rem;
+    }
+}
