@@ -24,7 +24,7 @@ logo {
     color: white;
 }
 
-ul {
+.pcnav {
     display: flex;
     list-style: none;
     margin-right: 3rem;
@@ -293,6 +293,15 @@ padding: 0.5rem;
     font-size: 8rem;
 }
 
+/* Mobile cross button  */
+#dot3
+    {
+ display: none ;
+    }
+    .mobilenav
+    {
+        display: none;
+    }
 @media(max-width:1206px)
 {
     html{
@@ -316,6 +325,7 @@ padding: 0.5rem;
 /* Mobile View  */
 @media(max-width:736px)
 {
+    
     #welcome {
         width: 100%;
         height: 100vh;   
@@ -523,7 +533,42 @@ padding: 0.5rem;
 }
 
 /* nav section  */
-nav {
+
+#dot3
+    {
+        display: block ;
+        font-size: 3rem;
+        margin-right: 2rem;
+    }
+    nav {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        height: 8rem; }
+
+        .pcnav
+        {
+            display: none;
+        }
+        .mobilenav
+        {
+            background-color: black;
+            margin-top: -1rem;
+            text-align: center;
+        }
+        .mobilenav li 
+        {
+            font-size: 4rem;
+        }
+        .mobilenav li :hover
+        {
+            color: gold;
+        }
+        .mobilenav.active
+        {
+         display: block;
+        }
+/* nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -557,7 +602,7 @@ li {
     margin-right: 0rem;
     color: white;
     margin: 0rem 3rem 0rem 3rem;
-}
+} */
 }
 
 @media(max-width:672px)
