@@ -706,31 +706,32 @@ li {
 
     .description {
         padding: 0rem;
-        /* border: 2px solid red; */
-        /* margin-left: 17rem; */
-        margin-left: 0rem;
-        /* margin-top: 30rem;
-        margin-bottom: 4rem; */
         width: 140rem;
-        height: 120rem;
-        /* background-color: aqua; */
-        
+        height: max-content;
+        /* background-color: red; */
+        font-size: 10rem; 
     }
 
     .description p {
-        font-size: 10rem;
-        /* margin: 0rem 1.6rem 0rem 1.6rem; */
+   padding: 6rem;
     }
 
     .photo {
         /* border: 2px solid gold; */
         /* margin-top: 5rem;
         margin-bottom: 5rem; */
-        width: 85%;
-        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100rem;
         margin-right: 0rem;
+        /* background-color: aqua; */
     }
-
+    .photo img 
+    {       
+        width: 80%;
+    }
     /* Skill box  */
     .skills {
         flex-direction: column;
@@ -777,9 +778,9 @@ li {
         /* border: 2px solid red; */
         /* width: 100%; */
         width: 140rem;
-        height: 70rem;
+        /* height: 70rem; */
         margin-top: 14rem;
-        margin-bottom: 14rem;
+        /* margin-bottom: 0rem; */
         /* background-color: aqua; */
     }
 
@@ -798,9 +799,10 @@ li {
         font-size: 9rem;
         text-align: left;
         box-shadow: 0rem 0rem 1rem;
-        margin: 0rem 0.3rem 2rem 0.3rem;
-        /* height: 40rem; */
-        height: 60rem;
+        /* margin: 0rem 0.3rem 2rem 0.3rem; */
+        margin: 0rem;
+        height: auto;
+        /* height: 60rem; */
         /* background-color: aqua; */
         border-radius: 0.5rem 0.5rem 1rem 1rem;
         /* padding: 0.7rem; */
