@@ -900,12 +900,12 @@ li {
 
     /* nav section  */
     logo {
-        font-size: 5rem;
+        font-size: 10rem;
     }
 
     #dot3 {
         display: block;
-        font-size: 6rem;
+        font-size: 10rem;
         margin-right: 2rem;
     }
 
@@ -913,7 +913,7 @@ li {
         display: flex;
         /* flex-direction: column; */
         align-items: center;
-        height: 12rem;
+        height: 20rem;
     }
 
     .pcnav {
@@ -927,7 +927,7 @@ li {
     }
 
     .mobilenav li {
-        font-size: 6rem;
+        font-size: 8rem;
     }
 
     .mobilenav li :hover {
